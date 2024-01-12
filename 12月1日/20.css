@@ -1,0 +1,127 @@
+body{
+  font-size: 16px;
+  color: rgb(64, 60, 60);
+}
+img{
+  width: 100%;
+}
+.top_01{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.top_02{
+  display: flex;
+}
+.topボタンbox_01{
+  background-color: deeppink;
+  display: block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: azure;
+  padding: 17px;
+}
+.topボタンbox_02{
+  background-color: rgb(38, 76, 0);
+  color: aliceblue;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  padding: 17px;
+  margin-left: 15px;
+}
+.メニューボタン{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 500px 20px 500px;
+}
+@media only screen and (max-width: 767px) {
+  .top_01 {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .topボタンbox_02 {
+    margin-left: 0;
+  }
+
+  .メニューボタン {
+    margin: 0;
+  }
+}
+.main_01{
+  display: flex;
+  margin: 50px 400px;
+}
+.mainbox_01{
+  margin-top: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .main_01 {
+    margin: 50px auto;
+    flex-flow: column;
+  }
+}
+.main_02{
+  margin: 30px;
+}
+.mainbox_02{
+  display: flex;
+}
+.main_02 h1{
+  margin-bottom: 20px;
+}
+.img_box_01{
+  margin-right: 30px;
+}
+.img_box_01 p{
+  margin-top: 30px;
+}
+.img_box_02 p{
+  margin-top: 30px;
+}
+@media only screen and (max-width: 767px){
+  .main_02 {
+    margin: 10px; 
+  }
+
+  .mainbox_02 {
+    flex-direction: column; 
+  }
+
+  .img_box_01,
+  .img_box_02 {
+    margin-right: 0; 
+  }
+
+  .img_box_01 p,
+  .img_box_02 p {
+    margin-top: 10px; 
+  }
+}
+.main_03{
+  background-color: rgb(209, 205, 205);
+  margin: 100px 400px;
+}
+.mainbox_03{
+  display: flex;
+padding: 50px;
+}
+.maintextbox_01{
+  margin: 50px 30px 0 20px ;
+}
+@media only screen and (max-width: 767px) {
+  .main_03 {
+    margin: 30px 15px;
+  }
+  
+  .mainbox_03 {
+    padding: 15px; 
+    flex-flow: column;
+  }
+
+  .maintextbox_01 {
+    margin: 15px;
+  }
+}
